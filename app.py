@@ -1,6 +1,6 @@
 import streamlit as st
 
-from Utils import read_pdf
+from utils import read_pdf
 
 from rag import create_vector_store, ask_question
 
